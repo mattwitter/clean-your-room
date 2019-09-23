@@ -4,8 +4,8 @@
   "description": "Cleaning up some messy code by breaking it up into functions",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "test": "./node_modules/.bin/mocha ./tests/tests.js"
+    "lint": "eslint --format codeframe .",
+    "test": "mocha ./tests/tests.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
     "chai": "^4.2.0",
     "eslint": "^6.3.0",
     "mocha": "^6.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/stackeducation/clean-your-room/issues"
+  },
+  "homepage": "https://github.com/stackeducation/clean-your-room#readme",
+  "directories": {
+    "test": "tests"
   }
 }
